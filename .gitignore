@@ -1,0 +1,5 @@
+build
+.idea
+load_guard_cog.egg-info
+**/__pycache__
+**/*.pyc
