@@ -10,7 +10,7 @@ setup(
     author='Michal Raska',
     author_email='michal.raska@gmail.com',
     description='',
-    install_requires=['up', 'psutil'],
+    install_requires=['up', 'psutil', 'pyyaml'],
     package_data={
         'load_guard_cog': ['load_guard_cog/registered_modules.yml']
     }
