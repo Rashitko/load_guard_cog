@@ -82,7 +82,8 @@ class LoadGuard(BaseThreadModule):
         return {
             'load': {
                 'cpu': self.cpu_utilization,
-                'ram': self.ram
+                'ram': self.ram,
+                'panic': self.in_panic
             }
         }
 
