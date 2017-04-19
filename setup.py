@@ -12,6 +12,6 @@ setup(
     description='',
     install_requires=['up', 'psutil', 'pyyaml'],
     package_data={
-        'load_guard_cog': ['load_guard_cog/registered_modules.yml']
+        'load_guard_cog': ['registered_modules.yml']
     }
 )
